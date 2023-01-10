@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sv1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.example.weibo.CircleImageView
+            android:id="@+id/profile_comp_imageView"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/default_profile_photo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/username_comp_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="14dp"
+            android:text="用户名"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/profile_comp_imageView"
+            app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:id="@+id/publish_date_comp_textview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="发布日期"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/profile_comp_imageView"
+            app:layout_constraintTop_toBottomOf="@+id/username_comp_textView" />
+        <ImageButton
+            android:id="@+id/edit_blog_button"
+            android:layout_width="30dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="#FFFFFF"
+            android:scaleType="centerInside"
+            android:src="@drawable/edit"
+            app:layout_constraintEnd_toStartOf="@id/delete_blog_button"
+            app:layout_constraintTop_toTopOf="parent" />
+        <ImageButton
+            android:id="@+id/delete_blog_button"
+            android:layout_width="30dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="#FFFFFF"
+            android:scaleType="centerInside"
+            android:src="@drawable/delete"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_margin="20dp"
+            android:id="@+id/content_comp_textview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="微博内容"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/profile_comp_imageView" />
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            app:layout_constraintTop_toBottomOf="@+id/content_comp_textview"
+            android:layout_height="400dp"/>
+        <LinearLayout
+            android:id="@+id/inte"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/content_comp_textview"
+
+
+            style="?android:listSeparatorTextViewStyle"
+
+            >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l"
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inte"
+
+            >
+
+            <ImageButton
+                android:id="@+id/applaud_blog_button"
+                android:layout_width="30dp"
+                android:layout_height="33dp"
+                android:layout_marginLeft="30dp"
+
+                android:background="#FFFFFF"
+                android:scaleType="centerInside"
+                android:src="@drawable/applaud" />
+
+            <TextView
+                android:id="@+id/applaud_number_textview"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+
+                android:text="0"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/content_abb_textview" />
+
+            <ImageButton
+                android:id="@+id/comment_blog_button"
+                android:layout_width="30dp"
+                android:layout_height="33dp"
+                android:layout_marginLeft="80dp"
+                android:background="#FFFFFF"
+                android:scaleType="centerInside"
+                android:src="@drawable/comment" />
+
+            <TextView
+                android:id="@+id/comment_number_abb_textview"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:text="0"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/content_abb_textview" />
+            <ImageButton
+                android:id="@+id/share_button"
+                android:layout_width="30dp"
+                android:layout_height="33dp"
+                android:layout_marginLeft="80dp"
+                android:background="#FFFFFF"
+                android:scaleType="centerInside"
+                android:src="@drawable/share" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/inte_2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inte"
+            style="?android:listSeparatorTextViewStyle"
+
+            >
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inte_2"
+            android:background="#DAD8D8"
+            android:orientation="horizontal">
+
+            <ScrollView
+                android:id="@+id/sv"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/comment_editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="在此输入和谐友善的评论..."
+                    android:textSize="18dp" />
+            </ScrollView>
+
+            <Button
+                android:id="@+id/publish_comment_button"
+                android:layout_width="127dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15dp"
+                android:text="评论"
+                android:textSize="18dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/sv" />
+
+        </LinearLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/comments_recyclerView"
+            android:layout_width="0dp"
+            android:layout_height="400dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.666"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ll" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

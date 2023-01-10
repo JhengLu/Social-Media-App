@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="40dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/profile_change_imageview"
+        android:layout_width="101dp"
+        android:layout_height="104dp"
+        android:layout_gravity="center"
+        android:src="@drawable/default_profile_photo"
+        android:visibility="visible" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <EditText
+            android:id="@+id/motto_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yuwei"
+            android:gravity="center"
+            android:textIsSelectable="true"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/nickname_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pop"
+            android:text="昵  称：" />
+        <EditText
+            android:id="@+id/nickname_editText"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/gender_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pop"
+            android:text="性  别：" />
+
+        <Spinner
+            android:id="@+id/gender_spinner"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            style="@style/Widget.AppCompat.Spinner.Underlined"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/birthday_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:fontFamily="@font/pop"
+            android:text="生  日：" />
+        <EditText
+            android:id="@+id/birthday_editText"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/location_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pop"
+            android:text="所在地：" />
+        <EditText
+            android:id="@+id/location_editText"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:gravity="center">
+    <Button
+        android:id="@+id/submit_change_info_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提交修改" />
+</LinearLayout>
+
+</LinearLayout>

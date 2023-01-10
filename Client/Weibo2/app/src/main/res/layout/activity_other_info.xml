@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="40dp"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:id="@+id/other_frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/other_profile_photo_imageview"
+            android:layout_width="101dp"
+            android:layout_height="104dp"
+            android:layout_gravity="center"
+            android:src="@drawable/default_profile_photo"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/other_motto_textview"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:fontFamily="@font/yuwei"
+        android:layout_below="@+id/other_frameLayout"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="快来填写你的个性签名吧！"
+        android:textIsSelectable="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/other_nickname_textview"
+        android:layout_below="@id/other_motto_textview"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="@font/pop"
+        android:text="昵称：" />
+
+    <TextView
+        android:id="@+id/other_udi_textview"
+        android:layout_below="@id/other_nickname_textview"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="@font/pop"
+        android:text="帐号：" />
+
+    <TextView
+        android:id="@+id/other_gender_textview"
+        android:layout_below="@id/other_udi_textview"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="@font/pop"
+        android:text="性别：未知" />
+
+    <TextView
+        android:id="@+id/other_birthday_textview"
+        android:layout_below="@+id/other_gender_textview"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="@font/pop"
+        android:text="生日：未知" />
+
+    <TextView
+        android:id="@+id/other_location_textview"
+        android:layout_below="@+id/other_birthday_textview"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="@font/pop"
+        android:text="所在地：未知" />
+
+    <TextView
+        android:id="@+id/other_bolgs_number_textview"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/other_location_textview"
+        android:fontFamily="@font/pop"
+        android:clickable="true"
+        android:text="发博数：" />
+
+</RelativeLayout>

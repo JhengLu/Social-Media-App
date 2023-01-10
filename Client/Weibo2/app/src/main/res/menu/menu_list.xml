@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/new_blog_menu"
+        android:title="写微博"
+        android:visible="true"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/new_vblog_menu"
+        android:title="写Vlog"
+        android:visible="true"
+        app:showAsAction="never" />
+</menu>

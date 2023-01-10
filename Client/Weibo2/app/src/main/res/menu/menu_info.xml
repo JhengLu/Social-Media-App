@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/change_info_menu"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="修改资料"
+        android:visible="true"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/log_out_menu"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="注销账号"
+        android:visible="true"
+        app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/all_blogs_toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#3968F2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:text="微博广场" />
+        <ImageButton
+            android:id="@+id/search_button"
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:background="#3968F2"
+            android:src="@drawable/search"
+            android:scaleType="centerInside"
+            android:layout_gravity="right"/>
+
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/search_text"
+            android:layout_width="370dp"
+            android:layout_height="30dp"
+            android:text="输入你想搜索的博主"
+            android:layout_gravity="center"
+            android:background="@drawable/search_border"
+            />
+
+        <ImageButton
+            android:id="@+id/change_button"
+            android:layout_width="44dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:background="#FFFFFF"
+            android:scaleType="centerInside"
+            android:src="@drawable/change" />
+    </LinearLayout>
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swipe_layout"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/all_blogs_recycler_view">
+
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</LinearLayout>

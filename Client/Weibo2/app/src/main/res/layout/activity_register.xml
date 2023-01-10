@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="40dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/profile_reg_imageview"
+        android:layout_width="101dp"
+        android:layout_height="104dp"
+        android:layout_gravity="center"
+        android:src="@drawable/default_profile_photo"
+        android:visibility="visible" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pop"
+            android:text="昵    称：" />
+        <EditText
+            android:id="@+id/nickname_reg_editText"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pop"
+            android:text="密    码：" />
+        <EditText
+            android:id="@+id/password_reg_editText"
+            android:layout_width="250dp"
+            android:inputType="textPassword"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pop"
+            android:text="确认密码：" />
+        <EditText
+            android:id="@+id/check_password_reg_editText"
+            android:layout_width="250dp"
+            android:inputType="textPassword"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pop"
+            android:text="性    别：" />
+        <Spinner
+            android:id="@+id/gender_reg_spinner"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            style="@style/Widget.AppCompat.Spinner.Underlined"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pop"
+            android:text="生    日：" />
+        <EditText
+            android:id="@+id/birthday_reg_editText"
+            android:layout_width="250dp"
+            android:inputType="date"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pop"
+            android:text="所 在 地：" />
+        <EditText
+            android:id="@+id/location_reg_editText"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center">
+        <Button
+            android:id="@+id/submit_reg_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注册" />
+    </LinearLayout>
+
+</LinearLayout>

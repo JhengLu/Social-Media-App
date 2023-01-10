@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:id="@+id/dragLeft"
+        android:background="@drawable/infoback3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="40dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/frameLayout"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/profile_photo_imageview"
+                    android:layout_width="101dp"
+                    android:layout_height="104dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/default_profile_photo"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/motto_textview"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:fontFamily="@font/yuwei"
+                android:gravity="center"
+                android:text="快来填写你的个性签名吧！"
+                android:textIsSelectable="true"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/nickname_textview"
+                style="?android:listSeparatorTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:fontFamily="@font/pop"
+                android:text="昵称：" />
+
+            <TextView
+                android:id="@+id/udi_textview"
+                style="?android:listSeparatorTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:fontFamily="@font/pop"
+                android:text="帐号：" />
+
+            <TextView
+                android:id="@+id/gender_textview"
+                style="?android:listSeparatorTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:fontFamily="@font/pop"
+                android:text="性别：未知" />
+            <TextView
+                android:id="@+id/birthday_textview"
+                style="?android:listSeparatorTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:fontFamily="@font/pop"
+                android:text="生日：未知" />
+
+            <TextView
+                android:id="@+id/location_textview"
+                style="?android:listSeparatorTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:fontFamily="@font/pop"
+                android:text="所在地：未知" />
+
+            <TextView
+                android:id="@+id/bolgs_number_textview"
+                style="?android:listSeparatorTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:fontFamily="@font/pop"
+                android:text="发博数：" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                >
+                <Button
+                    android:id="@+id/change_info_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="修改资料"/>
+
+                <Button
+                    android:id="@+id/log_out_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="注销账号" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
