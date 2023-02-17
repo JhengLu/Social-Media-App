@@ -23,4 +23,7 @@
 <p><img src="https://user-images.githubusercontent.com/77672985/219687133-7b1483b8-e431-4722-ae15-8f59c69f195e.png" alt="image"></p>
 <p>Click each blog to see detail information</p>
 <p><img src="https://user-images.githubusercontent.com/77672985/219687219-a88902c4-fcda-4305-a28c-fe3f2658e559.png" alt="image"></p>
-<p>
+<p>Share</p>
+<p><img src="https://user-images.githubusercontent.com/77672985/219690813-15771d95-8f78-4288-9376-16758b01edc4.jpg" alt="image"></p>
+<p><img src="https://user-images.githubusercontent.com/77672985/219690829-16137210-1dbd-4d9f-be0c-e1c614cb3ced.jpg" alt="image"></p>
+
