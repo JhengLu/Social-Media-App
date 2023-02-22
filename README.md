@@ -26,4 +26,20 @@
 <p>Share</p>
 <p><img src="https://user-images.githubusercontent.com/77672985/219690813-15771d95-8f78-4288-9376-16758b01edc4.jpg" alt="image"></p>
 <p><img src="https://user-images.githubusercontent.com/77672985/219690829-16137210-1dbd-4d9f-be0c-e1c614cb3ced.jpg" alt="image"></p>
+<p>Search</p>
+<p><img src="https://user-images.githubusercontent.com/77672985/220617353-1a35d88b-ef04-4a61-86b2-b3a4d0259997.png"></p>
+<p><img src="https://user-images.githubusercontent.com/77672985/220617422-a270762f-5e2a-4402-9827-d8d7aca9e4dd.png"></p>
+<p><img src="https://user-images.githubusercontent.com/77672985/220617441-c37e45ed-821d-4a71-868a-b9a863a7a836.png"></p>
+<p><img src="https://user-images.githubusercontent.com/77672985/220617537-733b9d78-6a98-468d-bdc7-1d840ea606b1.png"></p>
+<p><img src="https://user-images.githubusercontent.com/77672985/220617551-45fcccd6-525e-409a-936d-26a13b1ef471.png"></p>
+<p><img src="https://user-images.githubusercontent.com/77672985/220617557-497becf4-aab9-42e6-babf-9a3d91a0a448.png"></p>
+<p>Delete</p>
+<p><img src="https://user-images.githubusercontent.com/77672985/220617793-2735953a-f340-4021-98a5-9f8fa58b5889.png"></p>
+<p>Vlog</p>
+<p><img src="https://user-images.githubusercontent.com/77672985/220617898-0d70d028-fa7a-4259-8abb-2233e56e38b4.png"></p>
+<p><img src="https://user-images.githubusercontent.com/77672985/220617910-90a21c81-701d-4fdf-98d7-7720a8936ef8.png"></p>
+<p><img src="https://user-images.githubusercontent.com/77672985/220617920-8d07f45f-6a69-4090-aaff-8c599cac5c19.png"></p>
+<p><img src="https://user-images.githubusercontent.com/77672985/220617940-8b3fe4dd-a90e-4f36-a6bf-466ede166c03.png"></p>
+
+
 
